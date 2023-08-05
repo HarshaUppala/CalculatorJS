@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.calculatorBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+.container{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:0px 0px 42px -8px rgba(33,66,52,1);
+    padding: 10px 10px 10px 10px;
+}
+
+.button{
+    margin: 2px;
+    background-color: aqua;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.input{
+    width: 90%;
+    height: 20%;
+    padding: 4px 24px 4px 24px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: 35px;
+    text-align: right;
+}
+
+.row-1{
+    margin-top: 13px;
+    display: block;
+}
+
+.acButton{
+    margin-left: 135px;
+}
+
+.buttonOperator{
+    color:orange;
+}
+
+.buttonFunction{
+    color: rgb(170, 141, 87);
+}
+
+footer{
+    text-align: end;
+    background-color: rgb(135, 135, 253);
+    padding: 8px 42px 8px 8px;
+}
+
+footer p{
+    margin-top: px;
+}
